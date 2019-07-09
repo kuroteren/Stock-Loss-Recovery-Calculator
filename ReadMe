@@ -15,6 +15,16 @@ Its purpose: calculate the minimal sale value of stocks purchased on a call opti
  Selecting yes (y) will add two additional lines to each option output showing
  the math for the sale (profits) and expenditures (losses) in total
  
+    Example:
+          For 1 options, minimum sale price to recover losses is: $17.95
+              This gives a total profit gain of $0.03
+              Options sale value: 1 options * 100 shares * $17.9503 = $1795.03
+              Total loss and option expenses: 1 options * 100 shares * 2.95 + 1500= $1795.00
+ 
  If user selects no (n) the output is simply the minimum value to sell the shares
  in order to cover the losses and option expenditures, as well as a second line
  showing any profit past the recouperation.
+ 
+    Example:
+          For 1 options, minimum sale price to recover losses is: $17.95
+              This gives a total profit gain of $0.03
