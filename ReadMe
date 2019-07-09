@@ -1,0 +1,20 @@
+This is a Loss recovery calculator.
+
+version :: 0.3
+
+Its purpose: calculate the minimal sale value of stocks purchased on a call option exercise in order to recoup
+  option expenses and additional losses.
+  
+ Inputs:
+  Option price           -> the price of purchasing the option per share (the program handles the *100 multiplication)
+  Exercise price         -> the price per share on exercising the option (the program handles the *100 multiplication)
+  Losses                 -> the amount of losses to be recouperated (in positive value form, program handles the math)
+  Max Number of Options  -> the maximum number of options willing to be purchased
+  
+ The program will ask if the user wishes to see the math as an additional output.
+ Selecting yes (y) will add two additional lines to each option output showing
+ the math for the sale (profits) and expenditures (losses) in total
+ 
+ If user selects no (n) the output is simply the minimum value to sell the shares
+ in order to cover the losses and option expenditures, as well as a second line
+ showing any profit past the recouperation.
