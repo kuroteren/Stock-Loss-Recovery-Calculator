@@ -101,6 +101,8 @@ int main()
 			cout << endl << endl;
 		}
 	}
+
+	system("pause");
 }
 
 static void calculateRecovery(float cost, float loss, float price, int options, list<pair<int, float>>* minCounts)
